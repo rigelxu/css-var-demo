@@ -1,0 +1,11 @@
+:root {
+  --background: url(image.jpg);
+  --color: red;
+}
+
+.test {
+  display: block;
+  background: var(--background);
+  color: var(--color);
+  font-size: var(--unknown, 16px);
+}
